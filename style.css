@@ -1,31 +1,35 @@
 body {
 	margin:0 0 0 0;
-	background-color: rgb(117, 38, 253);
+	background-color: #11183c;
 }
-
 div {
 	text-align: center;
 	margin: 0 auto;
 }
-
 a {
 	display: inline-block;
 	margin: 0 6px 0 0;
 }
-
-#container {
-	position: absolute;
-	z-index: 1;
-	top: 50%;
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
-	color: white;
+#wave {
+	width: 100%;
 }
-
+#header {
+	margin-bottom: 50px;
+	background-color: #11183c;
+	background: -webkit-linear-gradient(top, #adebd1, #11183c);
+	background: -moz-linear-gradient(top, #adebd1, #11183c);
+	background: -ms-linear-gradient(top, #adebd1, #11183c);
+	background: -o-linear-gradient(top, #adebd1, #11183c);
+	background: linear-gradient(top, #adebd1, #11183c);
+}
+#logo {
+	padding-top: 40px;
+	max-width: 200px;
+}
 #title {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 440%;
-	font-weight:700;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 400%;
+	color:#d3d3df;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	letter-spacing: 1px;
@@ -34,45 +38,38 @@ a {
 	text-decoration: none;
 	transition: all 0.3s ease-in;
 }
-
+.her {
+	font-family: 'Lobster',cursive;
+}
 #title:hover {
 	text-shadow: 0 0 100px #667;
 }
-
-#description {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 163%;
-	padding-bottom: 0px;
+#date, #location{
+	font-family: 'Muli', sans-serif;
+	color: #d3d3df;
 }
-
-#date, #timeline, #subscribe, .subscribe-btn {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 120%;
-	font-weight: 105;
-	padding-bottom: 0px;
-	text-decoration: none;
-	color: white;
+#date{
+	text-align: right;
+	padding-right: 20px;
 }
-
-.fa, .social-media, #social-media {
-	color: white;
-	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 80%;
-	margin-bottom: 20px;
+#location{
+	text-align: left;
+	padding-left: 20px;
+	border-left: solid #d3d3df;
 }
-
-#email:hover, #facebook:hover, #twitter:hover, #instagram:hover, #medium:hover {
-	animation: bounce 0.9s;
+.datelocation {
+	display: inline-block;
 }
 
 .subscribe-btn {
+	font-family: 'Muli', sans-serif;
 	padding: 2px 6px 3px;
 	font-weight: 70;
 	font-size: 17px;
 	background-color: transparent;
 	border-radius: 5%;
 	box-sizing: border-box;
+	border-color: #ceddff;
 	margin: 10px 0;
 	z-index: 99999;
 	opacity: 0.9;
@@ -83,44 +80,100 @@ a {
 	margin-bottom: 10px;
 	position: relative;
 }
-
 #subscribe:hover .flipper {
 	transform: rotateY(180deg);
 }
-
 #subscribe, .front-btn, .back-btn {
 	width: 170px;
 	height: 50px;
 }
-
 .flipper {
 	transition: 0.6s;
 	transform-style: preserve-3d;
 	position: relative;
 }
-
 .front-btn, .back-btn {
 	backface-visibility: hidden;
 	position: absolute;
 }
-
 .front-btn {
 	z-index: 2;
 	transform: rotateY(0deg);
 }
-
 .back-btn {
 	transform: rotateY(180deg);
 }
-
 #subscribe-btn-front-text, #subscribe-btn-back-text {
 	text-decoration: none;
-	color: white;
+	color: #ceddff;
+}
+
+div.buildbox {
+	text-align: center;
+	background: transparent;
+	display: inline-block;
+	padding: 5px 5px 5px 5px;
+	margin: 0 20px 0 20px;
+	width: 220px;
+}
+h1.buildbox {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 150%;
+	letter-spacing: 1px;
+	color: #ceddff;
+}
+p.buildbox {
+	padding: 5 5 5 5;
+}
+.bodytext {
+	font-family: 'Muli', sans-serif;
+	color: #d3d3df;
+	font-size: 100%;
+}
+.sectionheader  {
+	overflow: hidden;
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	color: #ceddff;
+	padding-top: 10px;
+	text-align: center;
+}
+h3.sectionheader:before,
+h3.sectionheader:after {
+	background-color: #ceddff;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	min-width:2%;
+	width:10%;
+}
+h3.sectionheader:before {
+	right: 15px;
+	margin-left: 5%;
+}
+h3.sectionheader:after {
+	left: 15px;
+	margin-right: 5%;
+}
+
+
+.fa, .social-media, #social-media {
+	color: #ceddff;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 80%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#email:hover, #facebook:hover, #twitter:hover, #instagram:hover, #medium:hover {
+	animation: bounce 0.9s;
 }
 
 @keyframes bounce {
 	0%, 30%, 60%, 90% {
-	    -webkit-transform: translateY(0);
+		-webkit-transform: translateY(0);
 		transform: translateY(0);
 	}
 
