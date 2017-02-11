@@ -14,8 +14,13 @@ a {
 	bottom: 50px;
 	opacity: 0.8;
 }
+#mlh-logo {
+	width: 120px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
 #header {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	background-color: #11183c;
 	background: -webkit-linear-gradient(top, #adebd1, #11183c);
 	background: -moz-linear-gradient(top, #adebd1, #11183c);
@@ -231,14 +236,13 @@ p.teambox.bodytext {
 img {
 	border: 0;
 }
+
 div.faqbox {
 	background: transparent;
 	display: inline-block;
-	padding: 5px 5px 5px 5px;
+	padding: 5px 15px 5px 15px;
 	margin: 5px 5px 5px 5px;
 	width: 220px;
-}
-.faqbox {
 	display: inline-grid;
 	vertical-align: top;
 }
@@ -252,15 +256,6 @@ h1.faqbox {
 
 p.faqbox.bodytext, h1.faqbox.bodytext {
 	text-align: left;
-}
-p.faqbox.bodytext.start, h1.faqbox.bodytext.start {
-	margin-left: 5px;
-}
-p.faqbox.bodytext.mid, h1.faqbox.bodytext.mid {
-	margin-left: 20px;
-}
-p.faqbox.bodytext.end, h1.faqbox.bodytext.end {
-	margin-left: 45px;
 }
 
 .sectionheader  {
