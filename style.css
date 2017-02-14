@@ -9,6 +9,18 @@ a {
 	display: inline-block;
 	margin: 0 6px 0 0;
 }
+a:link {
+	color: #ceddff;
+}
+a:visited {
+	color: #ceddff;
+}
+a:hover {
+	color: white;
+}
+a:active {
+	color: white;
+}
 #moon-wave {
 	width: 100%;
 	bottom: 50px;
