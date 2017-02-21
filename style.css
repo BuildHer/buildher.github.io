@@ -33,6 +33,7 @@ a:active {
 }
 #header {
 	margin-bottom: 30px;
+	margin-top: -5px;
 	background-color: #11183c;
 	background: -webkit-linear-gradient(top, #adebd1, #11183c);
 	background: -moz-linear-gradient(top, #adebd1, #11183c);
