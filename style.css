@@ -251,7 +251,7 @@ img {
 }
 
 
-div.faqbox, div.sponsor {
+div.faqbox {
 	background: transparent;
 	display: inline-block;
 	padding: 5px 15px 5px 15px;
@@ -262,7 +262,12 @@ div.faqbox, div.sponsor {
 }
 
 div.sponsor {
-	width: 540px;
+	background: transparent;
+	display: inline-block;
+	padding: 5px 15px 5px 15px;
+	margin: 5px 5px 5px 5px;
+	max-width: 540px;
+	vertical-align: top;
 }
 
 h1.faqbox {
