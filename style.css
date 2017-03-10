@@ -468,10 +468,6 @@ p.copyrights{
     background-color: #ceddff; 
     opacity: 0.9;
 }
-.acc-menu label:active{
-    background-color: #ceddff; 
-    opacity: 0.9;
-}
 .acc-menu  label:before,
 /*This flip-reverses the label */
 .acc-menu input[type="checkbox"]:checked.current  ~ label:before{
