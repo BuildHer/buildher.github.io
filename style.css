@@ -407,6 +407,7 @@ p.copyrights{
 .sidebar {
 	position: fixed;
 	z-index: 999999;
+	transform: translateZ(3px);
 }
 .acc-menu, .acc-menu ul{
     line-height:1.5;
