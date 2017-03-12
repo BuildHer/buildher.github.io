@@ -191,22 +191,33 @@ div.sponsor {
 	max-width: 540px;
 	vertical-align: top;
 }
-div.logos {
+div.logos, div.logos1, div.logos2 {
 	background: transparent;
 	margin: auto;
 	display: block;
-	max-width: 750px;
 	vertical-align: top;
 	max-width: 760px;
 	vertical-align: top;
 	padding: 10px 10px 30px 10px;
 }
+div.logos {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+div.logos1 {
+	padding-bottom: 50px;
+}
 img.sponsorlogo {
-	max-width: 280px;
-	padding: 5px 5px 5px 5px;
+	max-width: 100%;
+	width: 610px;
+}
+img.sponsorlogo1 {
+	max-width: 100%;
+	width: 270px;
 }
 img.sponsorlogo2 {
-	max-width:180px;
+	max-width: 100%;
+	width: 170px;
 	padding: 5px 15px 5px 15px;
 }
 div.teambox {
