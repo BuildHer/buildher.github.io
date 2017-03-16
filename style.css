@@ -192,7 +192,7 @@ div.sponsor {
 	max-width: 540px;
 	vertical-align: top;
 }
-div.logos, div.logos1, div.logos2 {
+div.logos, div.logos1, div.logos2, div.logos3 {
 	background: transparent;
 	margin: auto;
 	display: block;
@@ -219,6 +219,11 @@ img.sponsorlogo1 {
 img.sponsorlogo2 {
 	max-width: 100%;
 	width: 170px;
+	padding: 5px 15px 5px 15px;
+}
+img.sponsorlogo3 {
+	max-width: 100%;
+	width: 300px;
 	padding: 5px 15px 5px 15px;
 }
 div.teambox {
