@@ -192,7 +192,7 @@ div.sponsor {
 	max-width: 540px;
 	vertical-align: top;
 }
-div.logos, div.logos1, div.logos2, div.logos3 {
+div.logos, div.logos1, div.logos2 {
 	background: transparent;
 	margin: auto;
 	display: block;
@@ -201,31 +201,25 @@ div.logos, div.logos1, div.logos2, div.logos3 {
 	vertical-align: top;
 	padding: 10px 10px 30px 10px;
 }
-div.logos {
+.sponsorlogo {
 	padding-top: 0px;
 	padding-bottom: 0px;
-}
-div.logos1 {
-	padding-bottom: 50px;
-}
-img.sponsorlogo {
 	max-width: 100%;
 	width: 610px;
+	padding: 0px 15px 0px 15px;
 }
-img.sponsorlogo1 {
+.sponsorlogo1 {
 	max-width: 100%;
 	width: 270px;
+	padding: 0px 20px 30px 20px;
 }
-img.sponsorlogo2 {
+.sponsorlogo2 {
 	max-width: 100%;
 	width: 170px;
-	padding: 5px 15px 5px 15px;
+	padding: 30px 20px 30px 20px;
 }
-img.sponsorlogo3 {
-	max-width: 100%;
-	width: 300px;
-	padding: 5px 15px 5px 15px;
-}
+
+/* Team Section */
 div.teambox {
 	text-align: center;
 	background: transparent;
@@ -234,8 +228,6 @@ div.teambox {
 	margin: 5px 5px 0px 5px;
 	width: 250px;
 }
-
-/* Team Section */
 h1.teambox {
 	font-family: 'Bungee Inline', cursive;
 	font-size: 100%;
