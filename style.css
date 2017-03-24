@@ -196,10 +196,14 @@ div.logos, div.logos1, div.logos2 {
 	background: transparent;
 	margin: auto;
 	display: block;
-	vertical-align: top;
-	max-width: 760px;
+	max-width: 1000px;
 	vertical-align: top;
 	padding: 10px 10px 30px 10px;
+}
+.sponsorlogo, .sponsorlogo1, .sponsorlogo2 {
+	display: inline-block;
+	margin: auto;
+	vertical-align: middle;
 }
 .sponsorlogo {
 	padding-top: 0px;
