@@ -183,7 +183,8 @@ p.buildbox {
 	text-align: left;
 }
 /* Schedule Section */
-.schedule-btn {
+/* btn schedule-btn */
+button.schedule-btn {
 	font-family: 'Muli', sans-serif;
 	padding: 2px 6px 3px;
 	font-weight: 70;
@@ -207,7 +208,7 @@ p.buildbox {
 	text-decoration: none;
 }
 
-button.schedule-btn:hover {
+.schedule-btn button:hover {
   background-color: #ceddff;
   cursor: pointer;
   transition: all 0.2s;
