@@ -15,8 +15,8 @@
 	<link rel="stylesheet" href ="style.css" type="text/css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Lobster|Muli|Raleway" rel="stylesheet">
-	<!--Google Analytics-->
-	<script async src="//www.google-analytics.com/analytics.js"></script>
+	<!--Javascript-->
+	<script src="main.js"></script>
 	<!--Font Awesome CDN-->
 	<script src="https://use.fontawesome.com/9d1c5223fa.js"></script>
 </head>
@@ -89,7 +89,31 @@
 		<div id="schedule">
 			<h3 class="sectionheader">Schedule</h3>
 			<div class="schedule-btn">
-				<button class="btn schedule-btn"><a href="" id="schedule-btn-text">See the Schedule</a></button>
+				<button onclick="scheduleCheck()" class="schedule-btn" id="schedule-btn-box"><a href="#schedule" id="schedule-btn-text">See the Schedule</a></button>
+				<div class="schedule-box">
+					<div id="schedule-text" style="display:none;">
+						<p id="schedule-greeting-text">Ta-da! Ready for BuildHer?</p>
+						<div id="schedule-full-text" class="bodytext hidden">
+							<p>3pm-5pm: Sponsor Set-Up</p>
+							<p>4pm-6pm: Hacker registration</p>
+							<p>5:30pm-7pm: Dinner</p>
+							<p>6pm-7:30pm: Opening Ceremony & Sponsor Expo</p>
+							<p>8pm-8:30pm: Team Formation & Ice Breakers</p>
+							<p>9pm: Hacking Begins</p>
+							<p>11pm-12am: Speaker (TBA)</p>
+							<p>12am-1am: Midnight Snack</p>
+							<p>3am-4am: MLH Mini-Event</p>
+							<p>6am-7am: Sunrise Yoga</p>
+							<p>8am-9am: Breakfast</p>
+							<p>11am-12pm: Speaker (TBA)</p>
+							<p>12pm-1pm: Lunch</p>
+							<p>3pm: Hacking Ends</p>
+							<p>3pm-4pm: Presentations</p>	
+							<p>4:30pm-5pm: Dinner</p>
+							<p>5pm-6pm: Awards & Closing Ceremony</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!--Sponsorship Section-->
