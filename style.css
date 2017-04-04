@@ -214,6 +214,13 @@ button.schedule-btn {
 	text-decoration: none;
 }
 
+.schedule-date {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 90%;
+	letter-spacing: 1px;
+	color: #ceddff;
+}
+
 .schedule-btn button:hover {
   background-color: #ceddff;
   cursor: pointer;

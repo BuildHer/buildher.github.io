@@ -4,7 +4,7 @@ function scheduleCheck() {
     if (accessCode !== null && accessCode === "buildherup") {
         	scheduleText.style.display = 'inline';
         	document.getElementById("schedule-btn-box").style.display ='none';
-        } else  {
+    } else  {
     	alert("Invalid access code");
     }
 }
