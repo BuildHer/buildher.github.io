@@ -249,7 +249,7 @@ div.logos, div.logos1, div.logos2 {
 	vertical-align: top;
 	padding: 10px 10px 30px 10px;
 }
-.sponsorlogo, .sponsorlogo1, .sponsorlogo2, .sponsorlogo3 {
+.sponsorlogo, .sponsorlogo1, .sponsorlogo2, .sponsorlogo3, .sponsorlogo4, .sponsorlogo5 {
 	display: inline-block;
 	margin: auto;
 	vertical-align: middle;
@@ -272,6 +272,18 @@ div.logos, div.logos1, div.logos2 {
 	padding: 30px 20px 30px 20px;
 }
 .sponsorlogo3 {
+	max-width: 300%;
+	width: 350px;
+	padding: 0px 15px 0px 15px;
+	padding-bottom: 50px;
+}
+.sponsorlogo4 {
+	max-width: 300%;
+	width: 350px;
+	padding: 0px 15px 0px 15px;
+	padding-bottom: 50px;
+}
+.sponsorlogo5 {
 	max-width: 300%;
 	width: 350px;
 	padding: 0px 15px 0px 15px;
