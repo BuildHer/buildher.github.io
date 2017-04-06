@@ -203,7 +203,7 @@ button.schedule-btn {
 	position: relative;
 }
 
-#schedule-greeting-text {
+#schedule-greeting-text, #schedule-goodbye-text {
 	font-family: 'Bungee Inline', cursive;
 	font-size: 100%;
 	letter-spacing: 1px;
