@@ -256,23 +256,23 @@ div.logos, div.logos1, div.logos2 {
 }
 .sponsorlogo {
 	padding-top: 0px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	max-width: 100%;
-	width: 610px;
+	width: 600px;
 	padding: 0px 15px 0px 15px;
 }
 .sponsorlogo1, .sponsorlogo2 {
 	max-width: 100%;
 	width: 220px;
-	padding: 0px 20px 50px 20px;
+	padding: 0px 20px 50px 30px;
 }
 #jpmc {
 	width: 350px;
 }
 .sponsorlogo3 {
 	max-width: 300%;
-	width: 170px;
-	padding: 50px 15px 50px 15px;
+	width: 200px;
+	padding: 50px 15px 50px 30px;
 }
 
 /* Team Section */
