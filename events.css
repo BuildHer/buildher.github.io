@@ -5,27 +5,35 @@ body {
 div {
 	text-align: center;
 }
-a {
-	display: inline-block;
-	margin: 0 6px 0 0;
+img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
 }
-a:link {
-	color: #ceddff;
-}
-a:visited {
-	color: #ceddff;
-}
-a:hover {
-	color: white;
-}
-a:active {
-	color: white;
-}
+
 .bodytext {
 	font-family: 'Muli', sans-serif;
 	color: #d3d3df;
 	letter-spacing: 1px;
 	font-size: 90%;
+}
+div.sponsor-text {
+	text-align: center;
+	background: transparent;
+	display: block;
+	max-width: 650px;
+	margin: 0 auto;
+}
+p.sponsor-text {
+	font-family: 'Muli', sans-serif;
+	color: #d3d3df;
+	letter-spacing: 1px;
+	font-size: 90%;
+}
+.devlink {
+	text-decoration: none;
+	padding-top: 20px;
+	padding-bottom: 100px;
 }
 #moon-wave {
 	width: 100%;
@@ -33,7 +41,7 @@ a:active {
 	opacity: 0.8;
 }
 #mlh-logo {
-	width: 120px;
+	width: 100px;
 	padding-top: 20px;
 	margin: 0 auto;
 }
@@ -49,11 +57,11 @@ a:active {
 }
 #logo {
 	padding-top: 40px;
-	max-width: 200px;
+	max-width: 100px;
 }
 #title {
 	font-family: 'Bungee Inline', cursive;
-	font-size: 400%;
+	font-size: 300%;
 	color:#d3d3df;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
@@ -85,287 +93,6 @@ a:active {
 .datelocation {
 	display: inline-block;
 }
-
-/* Subscribe Button */
-/*
-.subscribe-btn {
-	font-family: 'Muli', sans-serif;
-	padding: 2px 6px 3px;
-	font-weight: 70;
-	font-size: 17px;
-	background-color: #11183c;
-	border-radius: 5%;
-	box-sizing: border-box;
-	border-color: #ceddff;
-	margin: 10px 0;
-	z-index: 99999;
-	opacity: 0.9;
-	display: inline-block;
-	height: 50px;
-	width: 170px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	position: relative;
-}
-#subscribe:hover .flipper {
-	transform: rotateY(180deg);
-}
-#subscribe, .front-btn, .back-btn {
-	width: 170px;
-	height: 50px;
-	margin: 0 auto;
-}
-.flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-	position: relative;
-}
-.front-btn, .back-btn {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	position: absolute;
-}
-.front-btn {
-	transform: rotateY(0deg);
-	transform: translateZ(2px);
-}
-.back-btn {
-	z-index: -4;
-	transform: rotateY(180deg);
-}
-#subscribe-btn-front-text, #subscribe-btn-back-text {
-	text-decoration: none;
-	color: #ceddff;
-}
-*/
-
-/* Intro/Mission Section */
-div.introbox {
-	text-align: center;
-	background: transparent;
-	display: block;
-	max-width: 650px;
-	margin: 0 20px 20px 20px;
-	padding: 0 5px 0 5px;
-	letter-spacing: 1px;
-	margin: 0 auto;
-	font-size: 105%;
-}
-div.missionbox {
-	text-align: center;
-	background: transparent;
-	display: block;
-	max-width: 750px;
-	margin: 0 10px 40px 10px;
-	padding: 5px 5px 20px 5px;
-	letter-spacing: 1px;
-	margin: 0 auto;
-	font-size: 105%;
-}
-div.buildbox {
-	text-align: center;
-	background: transparent;
-	display: inline-block;
-	padding: 5px 5px 5px 5px;
-	margin: 0 20px 0 20px;
-	width: 240px;
-	vertical-align: top;
-}
-h1.buildbox {
-	font-family: 'Bungee Inline', cursive;
-	font-size: 150%;
-	letter-spacing: 1px;
-	color: #ceddff;
-}
-p.buildbox {
-	padding: 5 5 5 5;
-	margin-left: 10px;
-	text-align: left;
-}
-/* Schedule Section */
-button.schedule-btn {
-	font-family: 'Muli', sans-serif;
-	padding: 2px 6px 3px;
-	font-weight: 70;
-	font-size: 17px;
-	background-color: #11183c;
-	border-radius: 5%;
-	box-sizing: border-box;
-	border-color: #ceddff;
-	margin: 10px 0;
-	z-index: 99999;
-	opacity: 0.9;
-	display: inline-block;
-	height: 50px;
-	width: 170px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	position: relative;
-}
-
-#schedule-greeting-text, #schedule-goodbye-text {
-	font-family: 'Bungee Inline', cursive;
-	font-size: 100%;
-	letter-spacing: 1px;
-	color: #ceddff;
-}
-
-#schedule-btn-text {
-	text-decoration: none;
-}
-
-.schedule-date {
-	font-family: 'Bungee Inline', cursive;
-	font-size: 90%;
-	letter-spacing: 1px;
-	color: #ceddff;
-}
-
-.schedule-btn button:hover {
-  background-color: #ceddff;
-  cursor: pointer;
-  transition: all 0.2s;
-  color: #ceddff;
-}
-
-#schedule-btn-text:hover {
-	color: #11183c;
-}
-
-/* Sponsorship Section */
-div.sponsor {
-	background:transparent;
-	display: inline-block;
-	padding: 5px 15px 5px 15px;
-	margin: auto;
-	max-width: 540px;
-	vertical-align: top;
-}
-div.logos, div.logos1, div.logos2 {
-	background: transparent;
-	margin: auto;
-	display: block;
-	max-width: 1000px;
-	vertical-align: top;
-	padding: 10px 10px 30px 10px;
-}
-.sponsorlogo, .sponsorlogo1, .sponsorlogo2, .sponsorlogo3, .sponsorlogo4 {
-	display: inline-block;
-	margin: auto;
-	vertical-align: middle;
-}
-.sponsorlogo {
-	padding-top: 0px;
-	padding-bottom: 10px;
-	max-width: 100%;
-	width: 600px;
-	padding: 0px 15px 0px 15px;
-}
-.sponsorlogo1, .sponsorlogo2 {
-	max-width: 100%;
-	width: 220px;
-	padding: 0px 20px 50px 30px;
-}
-#jpmc {
-	width: 350px;
-}
-.sponsorlogo3 {
-	max-width: 300%;
-	width: 220px;
-	padding: 50px 15px 50px 30px;
-}
-
-/* Team Section */
-div.teambox {
-	text-align: center;
-	background: transparent;
-	display: inline-block;
-	padding: 5px 5px 0px 5px;
-	margin: 5px 5px 0px 5px;
-	width: 250px;
-}
-h1.teambox {
-	font-family: 'Bungee Inline', cursive;
-	font-size: 100%;
-	letter-spacing: 1px;
-	color: #ceddff;
-}
-p.teambox.bodytext {
-	font-size: 90%;
-	letter-spacing: 0.6px;
-	margin-top: -7px;
-}
-.teambox img {
-	width: 200px;
-	height: 200px;
-}
-.flip_container {
-	position: relative;
-	margin: 10px auto;
-	width: 220px;
-	height: 200px;
-	z-index: 1;
-}
-.flip_container {
-	perspective: 1000;
-}
-.flip_card {
-	width: 100%;
-	height: 100%;
-	transform-style: preserve-3d;
-	transition: all 1.0s linear;
-}
-.flip_container:hover .flip_card {
-	transform: rotateY(180deg);
-}
-.flip_container:active .flip_card{
-	transform: rotateY(180deg);
-}
-.face {
-	position: absolute;
-	width: 100%;
-	height: 100%; 
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-.face.back {
-	display: block;
-	transform: rotateY(180deg);
-	box-sizing: border-box;
-	color: white;
-	font-family: 'Raleway', sans-serif;
-	font-size: 70%;
-	z-index: -5;
-}
-#buildher {
-	background-size: cover;
-	background-color: #11183c;
-}
-img {
-	border: 0;
-}
-
-/* FAQ Section */
-div.faqbox {
-	background: transparent;
-	display: inline-block;
-	padding: 5px 15px 5px 15px;
-	margin: 5px 5px 5px 5px;
-	width: 220px;
-	display: inline-grid;
-	vertical-align: top;
-}
-h1.faqbox {
-	font-family: 'Bungee Inline', cursive;
-	color: #ceddff;
-	font-size: 105%;
-	letter-spacing: 0.8px;
-	font-weight: lighter;
-}
-p.faqbox.bodytext, h1.faqbox.bodytext {
-	text-align: left;
-}
-
 .sectionheader  {
 	overflow: hidden;
 	text-align: center;
@@ -393,10 +120,36 @@ h3.sectionheader:after {
 	left: 15px;
 	margin-right: 5%;
 }
-.faq.bodytext {
-	margin-left: 10px;
+.schedule-date, .map, .sponsor-title {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 120%;
+	letter-spacing: 2px;
+	color: #ceddff;
 }
-
+.schedule-col1, .schedule-col2, .schedule-col3 {
+	float:left;
+	width: 33.333%;
+}
+.map-photo {
+	display: block;
+}
+.map-photo-text, .map-photo-title {
+	text-align: center;
+}
+.map-photo-title {
+	font-size: 110%;
+	text-decoration: underline;
+}
+#edwardjones {
+	width: 400px;
+}
+#jpmc {
+	width: 450px;
+	padding-bottom: 40px;
+}
+.sponsor-link {
+	text-decoration: none;
+}
 /* Stars */
 /* Some code from <http://codepen.io/Glucio/pen/BoLWPo?editors=1100>
 +1014 +1307 */
@@ -430,39 +183,6 @@ h3.sectionheader:after {
 		transform: translateY(-2000px);
 	}
 }
-
-/* Social Media Section */
-.fa, .social-media, #social-media {
-	color: #ceddff;
-	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 80%;
-	margin-top: 30px;
-	margin-bottom: 10px;
-	padding-left: 10px;
-}
-p.copyrights{
-	padding-bottom: 50px;
-}
-#email:hover, #facebook:hover, #twitter:hover, #instagram:hover, #medium:hover {
-	animation: bounce 0.9s;
-}
-
-@keyframes bounce {
-	0%, 30%, 60%, 90% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-	}
-	40% {
-		-webkit-transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-	80% {
-		-webkit-transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-}
-
 /* Side Navigation */
 .sidebar {
 	position: fixed;
