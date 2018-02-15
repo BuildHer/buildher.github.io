@@ -107,6 +107,14 @@ h2.home {
 	bottom: 0;
 	right: 0;
 }
+#apply-button {
+	background-color: #ceddff;
+	font-family: 'Lobster',cursive;
+	color: #2f306d;
+	font-size: 24px;
+	margin: 10px;
+	border: solid white 2px;
+}
 
 /* Social Media Section */
 .fa, #social-media {
