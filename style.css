@@ -17,7 +17,7 @@ body {
 body.home, body.team {
 	background-color: #2f306d;
 }
-body.about {
+body.about, body.sponsors {
 	background-color: #175140;
 }
 body.faq {
@@ -187,3 +187,29 @@ h2.team {
 	font-size: 20px;
 	color: #ceddff;
 }
+
+/* Sponsors Page */
+.sponsor-row {
+	padding: 0% 10% 5% 10%;
+	text-align: center;
+	max-width: 100%;
+}
+.sponsor-image {
+	margin: 0 auto;
+	padding: 10px;
+}
+img.platinum {
+	max-width: 100%;
+	width: 600px;
+}
+img.gold {
+	width: 500px;
+}
+img.silver {
+	width: 400px;
+}
+img.bronze {
+	width: 300px;
+
+}
+
