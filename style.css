@@ -93,6 +93,12 @@ h2.home {
 	font-size: 24px;
 	color: #ceddff;
 }
+h4.home {
+	font-family: 'Muli';
+	font-weight: bold;
+	font-size: 18px;
+	color: #ceddff;
+}
 #tagline{
 	margin-top: 25px;
 }
