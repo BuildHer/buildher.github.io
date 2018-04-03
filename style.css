@@ -196,26 +196,25 @@ h2.team {
 
 /* Sponsors Page */
 .sponsor-row {
-	padding: 0% 10% 5% 10%;
+	padding: 0% 10% 0% 10%;
 	text-align: center;
 	max-width: 100%;
 }
 .sponsor-image {
 	margin: 0 auto;
-	padding: 10px;
+	padding: 20px 10px 20px 10px;
 }
 img.platinum {
 	max-width: 100%;
-	width: 600px;
+	width: 700px;
 }
 img.gold {
-	width: 500px;
+	width: 450px;
 }
 img.silver {
-	width: 360px;
+	width: 320px;
 }
 img.bronze {
-	width: 300px;
-
+	width: 280px;
 }
 
