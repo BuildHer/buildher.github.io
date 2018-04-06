@@ -8,7 +8,7 @@
 // }
 
 function accessBooklet() {
-    var accessCode = prompt("Please enter your access code", "whyhellothere :D");
+    var accessCode = prompt("Please enter your access code");
     if (accessCode !== null && accessCode === "buildherup123") {
         booklet = document.getElementById("booklet");
         booklet.style.display = "block";
