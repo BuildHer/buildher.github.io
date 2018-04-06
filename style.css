@@ -20,7 +20,7 @@ body.home, body.team {
 body.about, body.sponsors {
 	background-color: #175140;
 }
-body.faq {
+body.faq, body.dayof {
 	background-color: #921860;
 }
 a {
@@ -212,9 +212,120 @@ img.gold {
 	width: 450px;
 }
 img.silver {
-	width: 320px;
+	width: 300px;
 }
 img.bronze {
-	width: 280px;
+	width: 200px;
 }
 
+/* Day Of Page */
+#booklet {
+	display: none;
+}
+div.dayof {
+	padding: 0% 15% 5% 15%;
+}
+div.dayof-section {
+	display: none;
+}
+#resources-sect {
+	display: block;
+}
+h1.dayof {
+	font-family: 'Bungee Inline';
+	color: #f7cbe6;
+	font-size: 20px;
+	text-align: center;
+}
+h2.dayof, h3.dayof {
+	font-family: 'Bungee Inline';
+	color: #d3d3df;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px;
+}
+h3.dayof {
+	font-family: 'Lobster';
+}
+p.dayof {
+	font-family: 'Muli';
+	color: #d3d3df;
+	font-size: 16px;
+}
+p.recruiting {
+	font-family: 'Bungee Inline';
+	padding-top: 15px;
+}
+p.time {
+	color: #f7cbe6;
+	margin: 0 auto;
+}
+p.loc {
+	color: #d3d3df;
+	margin: 0 auto;
+}
+p.event {
+	color: white;
+}
+button.dayof {
+	background-color: #d3d3df;
+	font-family: 'Muli';
+	color: #921860;
+	font-size: 18px;
+	border: solid white 2px;
+	margin: 0 auto;
+	text-align: center;
+}
+button.dayof:hover {
+	background-color: #f7cbe6;
+}
+#dayof-button {
+	text-align: center;
+}
+div.access {
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+img.dayof {
+	width: 90%;
+	max-width: 600px;
+	padding: 15px;
+}
+div.dayof-map {
+	text-align: center;
+	display: block;
+}
+div.dayof-tabs {
+	text-align: center;
+}
+.tab {
+	background-color: white;
+	font-family: 'Muli';
+	font-size: 14px;
+	color: #921860;
+	padding: 6px;
+	margin: 0 auto;
+	width: 23%;
+	max-width: 200px;
+	border: none;
+	text-align: center;
+}
+.tab:hover {
+	background-color: #f7cbe6;
+}
+div.schedule {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.sched-col1, .sched-col2 {
+	margin: 0 auto;
+	display: inline-block;
+	padding: 2px;
+}
+.sched-col1 {
+	width: 35%;
+}
+.sched-col2 {
+	width: 60%;
+}

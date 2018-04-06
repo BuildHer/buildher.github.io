@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>BuildHer Hackathon</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Favicon-->
+	<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<!--CSS-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href ="style.css" type="text/css">
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Lobster|Muli" rel="stylesheet">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+  <script src="main.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body class="dayof">
+<!--Nav Bar-->
+<nav class="navbar navbar-static-top">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar" style="background-color:gray;"></span>
+        <span class="icon-bar" style="background-color:gray;"></span>
+        <span class="icon-bar" style="background-color:gray;"></span>
+      </button>
+    </div>
+    <div class="container">
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="faq.html">faq</a></li>
+            <li><a href="team.html">team</a></li>
+            <li><a href="sponsors.html">sponsors</a></li>
+            <li><a href="dayof.html">attendees</a></li>
+          </ul>
+        </div>
+      </div>
+</nav>
+
+<div class="container">  
+<h1 class="header-text">BuildHer Day-Of Attendee Booklet</h1>
+<div id="dayof-button"><button onclick="accessBooklet()" class="dayof">Access Booklet</button></div>
+
+<div id="booklet">
+  <!-- Tabs -->
+  <div class="dayof-tabs">
+    <button class="tab" onclick="openPage('resources-sect', this)">Resources</button>
+    <button class="tab" onclick="openPage('schedule-sect', this)">Schedule</button>
+    <button class="tab" onclick="openPage('maps-sect', this)">Maps</button>
+    <button class="tab" onclick="openPage('sponsors-sect', this)">Sponsors</button>
+  </div>
+
+  <!-- Resources -->
+  <div id="resources-sect" class="dayof-section">
+    <h1 class="dayof">Resources</h1>
+    <div class="row dayof">
+      <p class="dayof">Check Slack (<a href="https://buildher2018.slack.com/">buildher2018.slack.com</a>) for announcements, and use it to reach out to other attendees, mentors and organizers if you need anything! Also feel free to form new channels for specific interests if they don't already exist!</p>
+      <p class="dayof">Don't forget to register for our Devpost, and submit your projects by the end of the hacking period: <a class="dayof" href="https://buildher2018.devpost.com/">BuildHer 2018 Devpost</a></p>
+    </div>
+  </div>
+
+    <!-- Schedule Day One-->
+  <div id="schedule-sect" class="dayof-section">
+    <h1 class="dayof">Schedule</h1>
+    <h2 class="dayof">Saturday, Apr 14th</h2>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">10:00AM</p>
+          <p class="dayof loc">Tech</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Hacker Registration</p>
+      </div>
+    </div>
+
+     <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">12:00PM</p>
+          <p class="dayof loc">LR3</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Opening Ceremony + Lunch</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">1:00PM</p>
+          <p class="dayof loc">Outside LR3</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Career Fair/Sponsor Expo</p>
+      </div>
+    </div>
+
+     <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">2:00PM</p>
+          <p class="dayof loc">L361</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Team Forming</p>
+      </div>
+    </div>
+
+     <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">2:30-3:00PM</p>
+          <p class="dayof loc">L361</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Workshop: Intro to Git/Github (Beginner)</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">3:00PM</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">HACKING BEGINS!</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">3:00-4:00PM</p>
+          <p class="dayof loc">L361</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Workshop: HTML/CSS (Beginner)</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">3:00-4:00PM</p>
+          <p class="dayof loc">M345</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Workshop: Google</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">4:00PM</p>
+          <p class="dayof loc">TBD</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Workshop: JPMC</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">5:00-6:00PM</p>
+          <p class="dayof loc">L361</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Workshop: Build your own website with React (Intermediate)</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">5:00-5:30PM</p>
+          <p class="dayof loc">M345</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Workshop: Hosting with Firebase (Beginner)</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">5:30-6:00PM</p>
+          <p class="dayof loc">M345</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Workshop: Intro to Chrome Extensions (Beginner)</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">6:00-7:00PM</p>
+          <p class="dayof loc">M345</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Workshop: Arduino (Beginner)</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">6:00-7:00PM</p>
+          <p class="dayof loc">L361</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Workshop: Build Web Apps with Ruby (Intermediate, Advanced)</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">6:00-7:00PM</p>
+          <p class="dayof loc">M345</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Workshop: Getting Started with Android (Beginner)</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">7:00PM</p>
+          <p class="dayof loc">L211</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Dinner</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">8:00-9:00PM</p>
+          <p class="dayof loc">M345</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Intermediate Android (Intermediate)</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">8:00-10:00PM</p>
+          <p class="dayof loc">L361</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Amazon: Building Alexa Skills (Beginner)</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">9:00-10:00PM</p>
+          <p class="dayof loc">Outside LR3</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">MLH Werewolf Game</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">10:00-11:00PM</p>
+          <p class="dayof loc">L361</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Intel: Machine Learning and AI (Beginner)</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">11:00PM</p>
+          <p class="dayof loc">M345</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Game Design Workshop</p>
+      </div>
+    </div>
+
+    <!-- Schedule Day Two-->
+    <h2 class="dayof">Sunday, Apr 15th</h2>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">12:00 AM</p>
+          <p class="dayof loc">Tech L211</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Midnight Snack/Fun Activity</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">7:00AM</p>
+          <p class="dayof loc">M345</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Sunrise Yoga</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">9:00AM</p>
+          <p class="dayof loc">L211</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Breakfast</p>
+      </div>
+    </div>
+
+  <!--   <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">9:30-10:30AM</p>
+          <p class="dayof loc">TBD</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Empowerment Event</p>
+      </div>
+    </div> -->
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">11:00AM</p>
+          <p class="dayof loc">L361</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Career Panel</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">12:00PM</p>
+          <p class="dayof loc">L211</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Lunch</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">3:00PM</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">HACKING ENDS - Submit your projects!</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">3:00-5:00PM</p>
+          <p class="dayof loc">L211 (TBD)</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Hacker Presentations</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">5:00-6:00PM</p>
+          <p class="dayof loc">Ryan Aud (TBD)</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Awards and Closing Ceremony</p>
+      </div>
+    </div>
+
+    <div class="row dayof schedule">
+      <div class="sched-col1">
+          <p class="dayof time">6:00PM</p>
+      </div>
+      <div class="sched-col2">
+        <p class="dayof event">Send-Off</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Maps-->
+  <div id="maps-sect" class="dayof-section">
+  <div class="dayof-map">
+    <h1 class="dayof">Maps</h1>
+    <p class="dayof">Hacking: LR3, LR4, LR5, unused workshop rooms (L361, M345)</p>
+    <p class="dayof">Sleeping: ITW Classroom (Ford Building, Fri 4:30-Sat 6:30), A110 and L158 (Fri 8pm-Sat 12pm)</p>
+    <p class="dayof">Snacks and Meals: L211</p>
+
+    <div><img src="images/maps/map-key.png" width="120px"></div>
+    <a href="images/maps/tech-first-floor.png"><img class="dayof" src="images/maps/tech-first-floor.png"></a>
+    <a href="images/maps/tech-second-floor.png"><img class="dayof" src="images/maps/tech-second-floor.png"></a>
+    <a href="images/maps/tech-third-floor.png"><img class="dayof" src="images/maps/tech-third-floor.png"></a>
+  </div>
+  </div>
+
+  <!-- Sponsors -->
+  <div id="sponsors-sect" class="dayof-section">
+    <h1 class="dayof">Sponsors</h1>
+    <!--Platinum-->
+    <div class="sponsor-row">
+        <a href="https://www.jpmorganchase.com/"><img class="sponsor-image platinum" src="images/sponsors/JPMC Logo White.png"></a>
+        <p class="dayof">JPMorgan Chase, a leading global financial services firm, is reinventing the way the industry does business through technology. With an annual investment of over $9.5 billion in technology and 40,000 technologists, technology and innovation are critical to delivering to over 40 million digital customers and processing $5 trillion in payments each day. Visit <a href="https://careers.jpmorgan.com/careers/US/en/divisions/technology">jpmorganchase.com/techcareers</a>to learn more. We also run our own hackathon called Code for Good, where university students use their coding skills to solve real-world problems for non-profit organizations. Visit <a href="https://careers.jpmorgan.com/careers/US/en/programs/code-for-good">jpmorganchase.com/codeforgood</a>to learn more and register interest for our upcoming events.</p>
+        <h3 class="dayof">Recruiting:</h3>
+        <p class="dayof"><a href="https://careers.jpmorgan.com/careers/US/en/programs/code-for-good">Register your interest for the JPMorgan Chase Code for Good Chicago (October 12-13)</a></p>
+        <p class="dayof"><a href="https://jpmc.recsolucampus.com/candidatepreferenceform.php?formId=Zmlp">Register your interest for the JPMorgan Chase Summer 2019 Technology Analyst Program (TAP)</a></p>
+        <p class="dayof"><a href="https://jpmc.recsolucampus.com/candidatepreferenceform.php?formId=Zmln">Register your interest for the JPMorgan Chase Full-Time 2019 Technology Analyst Program (TAP)</a></p>
+    </div>
+    <!--Silver-->
+    <div class="row sponsor-row">
+        <a href="http://www.morningstar.com/"><img class="sponsor-image silver" src="images/sponsors/morningstar.jpg"></a>
+        <a href="https://www.synchronyfinancial.com/"><img class="sponsor-image silver" src="images/sponsors/synchrony.png"></a>
+    </div>
+    <!--Bronze-->
+    <div class="row sponsor-row">
+        <a href="https://www.microsoft.com/en-us/"><img class="sponsor-image bronze" src="images/sponsors/microsoft.png"></a>
+        <a href=""><img class="sponsor-image bronze" src="images/sponsors/google_cloud_platform.png"></a>
+        <a href="https://www.facebook.com/"><img class="sponsor-image bronze" src="images/sponsors/facebook_blue.jpg"></a>
+        <a href="https://www.bittobyte.org/"><img class="sponsor-image bronze" src="images/sponsors/BtB_Horizontal.png"></a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="sponsors.html" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+</a>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+
+<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
+</body>
+</html>
