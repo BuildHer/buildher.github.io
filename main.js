@@ -1,15 +1,6 @@
-// function scheduleCheck() {
-//     var accessCode = prompt("Please enter your access code", "whyhellothere :D");
-//     if (accessCode !== null && accessCode === "buildher7828") {
-//         location="booklet.html";
-//     } else  {
-//     	alert("Invalid access code");
-//     }
-// }
-
 function accessBooklet() {
     var accessCode = prompt("Please enter your access code");
-    if (accessCode !== null && accessCode === "buildherup123") {
+    if (accessCode !== null && accessCode === "buildherup18") {
         booklet = document.getElementById("booklet");
         booklet.style.display = "block";
         button = document.getElementById("dayof-button");
