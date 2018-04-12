@@ -1,6 +1,6 @@
 function accessBooklet() {
     var accessCode = prompt("Please enter your access code");
-    if (accessCode !== null && accessCode === "buildherup18") {
+    if (accessCode !== null && accessCode === "buildherup18" || accessCode==="Buildherup18") {
         booklet = document.getElementById("booklet");
         booklet.style.display = "block";
         button = document.getElementById("dayof-button");
